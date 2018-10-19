@@ -49,6 +49,7 @@ plugins.SemiCircle(
 
 ## Jupyter Netbook Demo
 
+You can see a demo at [this link](http://nbviewer.jupyter.org/github/syberworld/Folium-SemiCircle/blob/master/Folium%20SemiCircle.ipynb)
 
 ## Change log
 * 18.10.2018 - First edition
