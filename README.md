@@ -14,6 +14,11 @@ Using `startAngle` and `stopAngle`:
 ```
 Import folium
 from folium import plugins
+m = folium.Map(
+    location=[39.217, 9.136],
+    zoom_start=14,
+    tiles='Stamen Terrain'
+)
 plugins.SemiCircle(
     location=[39.217, 9.136],
     radius= 1500,
