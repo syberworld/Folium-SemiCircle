@@ -45,7 +45,7 @@ plugins.SemiCircle(
 
 ## Screenshot
 
-![](https://farm8.staticflickr.com/7373/12376158164_e335b4e61d_b.jpg)
+![](https://raw.githubusercontent.com/syberworld/Folium-SemiCircle/master/Screenshot.png)
 
 ## Jupyter Netbook Demo
 
