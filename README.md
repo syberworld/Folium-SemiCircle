@@ -14,11 +14,12 @@ Using `startAngle` and `stopAngle`:
 ```
 Import folium
 from folium import plugins
-L.semiCircle([51.5, -0.09], {
-    radius: 500,
-	startAngle: 45,
-	stopAngle: 135
-}).addTo(map);
+plugins.SemiCircle(
+    location=[39.217, 9.136],
+    radius= 1500,
+    startAngle= 10,
+    stopAngle=100
+).add_to(m)
 ```
 or using `direction` and `arc`:
 ```
