@@ -12,7 +12,7 @@ Like SemiCircle plugin there are two methods for call plugin:
 
 Using `startAngle` and `stopAngle`:
 ```
-Import folium
+import folium
 from folium import plugins
 m = folium.Map(
     location=[39.217, 9.136],
@@ -28,11 +28,19 @@ plugins.SemiCircle(
 ```
 or using `direction` and `arc`:
 ```
-L.semiCircle([51.5, -0.09], {
-    radius: 500,
-	startAngle: 45,
-	stopAngle: 135
-}).addTo(map);
+import folium
+from folium import plugins
+m = folium.Map(
+    location=[39.217, 9.136],
+    zoom_start=14,
+    tiles='Stamen Terrain'
+)
+plugins.SemiCircle(
+    location=[39.217, 9.136],
+    radius= 1500,
+    direction= 270,
+    arc=90
+).add_to(m)
 ```
 
 ## Screenshot
