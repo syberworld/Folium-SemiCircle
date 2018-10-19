@@ -20,10 +20,10 @@ m = folium.Map(
     tiles='Stamen Terrain'
 )
 plugins.SemiCircle(
-    location=[39.217, 9.136],
-    radius= 1500,
-    startAngle= 10,
-    stopAngle=100
+    location=[39.217, 9.136],   # Location of center
+    radius= 1500,               # Radius in meters
+    startAngle= 10,             # Start angle (0 to 360 degrees)
+    stopAngle=100               # Stop angle (0 to 360 degrees)
 ).add_to(m)
 ```
 or using `direction` and `arc`:
@@ -36,10 +36,10 @@ m = folium.Map(
     tiles='Stamen Terrain'
 )
 plugins.SemiCircle(
-    location=[39.217, 9.136],
-    radius= 1500,
-    direction= 270,
-    arc=90
+    location=[39.217, 9.136],   # Location of center
+    radius= 1500,               # Radius in meters
+    direction= 270,             # Direction of cone center (0 to 360 degrees)
+    arc=90                      # Amplitude of cone (0 to 360 degrees)
 ).add_to(m)
 ```
 
