@@ -5,6 +5,7 @@
 ## Installation
 
 Copy semicircle.py file in plugins directory of Folium library
+
 Add to __init__.py in plugins directory refer to plugin
 
 ## How it work
